@@ -26,7 +26,7 @@ This project applies **Random Forest Classifier** to detect fraudulent credit ca
 | Precision        | **87.67%** |
 | Recall (Sensitivity) | **84.26%** |
 | F1 Score         | **85.94%** |
-| ROC AUC Score    | **0.992**  |
+| ROC AUC Score    | **0.992 to 0.994**  |
 
 ### Confusion Matrix
 ```
@@ -47,7 +47,7 @@ Only **8 frauds were missed**, and **precision is high**, meaning fewer false al
 ### Visualizations
 
 #### 1. ROC Curve
-- AUC Score: **0.992**
+- AUC Score: **0.992 to 0.994**
 - Almost hugging the top-left corner — this means **excellent classification power**.
 
 #### 2. Precision-Recall Curve
